@@ -6,94 +6,93 @@
 
 {% block body_class %}home{% endblock %}
 
-{% block banner %}
-
-
-
-
-
- <section role="main">
-
-  <header>
-    <div class="row">
-      <div class="twelve columns">
-        <a class='sidebar-button show-for-small' id="sidebarButton" href="#sidebar" ><img src="images/offcanvas/menu-wht.png"><h4>Foundation</h4></a>
-        <h1></h1>
-<h1 class="hide-for-small">{{ flatpage.title }}</h1>
-
-
-
-  <div class="row">
-    <div class="ten columns centered">							
-      <div class="panel">
-	  	  {{ flatpage.content }}
-	  <p><a href="/prestations" class="btn primary large">Learn more &raquo;</a></p>   
-
-      </div>
-    </div>
-  </div>
-
-      </div>
-
-
-{% endblock %}
-
 {% block body_base %}
 
-  <div class="row">
-    <div class="ten columns centered">
-      {% include "_messages.html" %}
-      <hr />
-    </div>
-  </div>
 
-  <div class="row">
-    <div class="ten columns centered">
-      <div class="zurb-footer-bottom">
-	<div class="three columns">
-	  <a href="http://www.zurb.com" class="zurb-logo regular"></a>
-	  <ul class="zurb-links panelRed">
-	    <li><a href="/">Art-Line</a></li>
-	    <li><a href="/news">News</a></li>
-	    <li><a href="/contact">Contact</a></li>
-	    <li><a href="/prestations">Soirées</a></li>
-	  </ul>
+  {% block banner %}
 
+
+    <section role="main">
+
+      <header>
+	<div class="row">
+	  <div class="ten columns">
+	    <a class='sidebar-button show-for-small' id="sidebarButton" href="#sidebar" ><img src="images/offcanvas/menu-wht.png"><h4>Foundation</h4></a>
+	    <h1></h1>
+	    <h1 class="hide-for-small">{{ flatpage.title }}</h1>
+
+
+
+	    <div class="row">
+	      <div class="ten columns centered">							
+		<div class="panel">
+	  	  {{ flatpage.content }}
+		  <p><a href="/prestations" class="btn primary large">Learn more &raquo;</a></p>   
+
+		</div>
+	      </div>
+	    </div>
+
+	  </div>
+	</header>
+
+
+	{% endblock %}
+
+	<div class="row">
+	  <div class="ten columns centered">
+	    {% include "_messages.html" %}
+	    <hr />
+	  </div>
 	</div>
 
-	<div class="three columns">
-	  <ul class="home-social panelYlw">
-	    <br />
-	    <br />
-	    <br />
-	    <br />
-	  </ul>
+	<div class="row">
+	  <div class="ten columns centered">
+	    <div class="zurb-footer-bottom">
+	      <div class="three columns">
+		<a href="http://www.zurb.com" class="zurb-logo regular"></a>
+		<ul class="zurb-links panelRed">
+		  <li><a href="/">Art-Line</a></li>
+		  <li><a href="/news">News</a></li>
+		  <li><a href="/contact">Contact</a></li>
+		  <li><a href="/prestations">Soirées</a></li>
+		</ul>
+
+	      </div>
+
+	      <div class="three columns">
+		<ul class="home-social panelYlw">
+		  <br />
+		  <br />
+		  <br />
+		  <br />
+		</ul>
+	      </div>
+
+	      <div class="three columns">
+		<ul class="home-social panelBlue">
+		  <li><a href="/prestations" class="twitter">lien google+</a></li>
+		  <li><a href="/news" class="facebook">lien github</a></li>
+		  <li><a href="/contact" class="mail">contact</a></li>
+		  <li><a href="/" class="mail">autre lien</a></li>
+		</ul>
+	      </div>
+
+
+	      <div class="three columns">
+		<ul class="home-social panelGreen">
+		  <br />
+		  <br />
+		  <br />
+		  <br />
+		</ul>
+	      </div>
+	      <br />
+	      <hr />
+	      <p class="copyright"> Un site réalisé par &copy; 2013 <a href="http://www.xpertise.ch" target="_blank"> xpertise.ch </a>.</p>               
+	    </div>
+	  </div>
 	</div>
 
-	<div class="three columns">
-	  <ul class="home-social panelBlue">
-	    <li><a href="/prestations" class="twitter">lien google+</a></li>
-	    <li><a href="/news" class="facebook">lien github</a></li>
-	    <li><a href="/contact" class="mail">contact</a></li>
-	    <li><a href="/" class="mail">autre lien</a></li>
-	  </ul>
-	</div>
-
-
-	<div class="three columns">
-	  <ul class="home-social panelGreen">
-	    <br />
-	    <br />
-	    <br />
-	    <br />
-	  </ul>
-	</div>
-	<br />
-	<hr />
-	<p class="copyright"> Un site réalisé par &copy; 2013 <a href="http://www.xpertise.ch" target="_blank"> xpertise.ch </a>.</p>               
-      </div>
-    </div>
-  </div>
-
-{% endblock %}
+      {% endblock %}
 
