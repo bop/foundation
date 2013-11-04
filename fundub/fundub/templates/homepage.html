@@ -7,23 +7,28 @@
 {% block body_class %}home{% endblock %}
 
 {% block banner %}
-    <h1>Art-Line</h1>
-    <p class="lead">
+  <div class="row panel">
+    <div class="large-10 columns">
+      <h1>Art-Line</h1>
+      <p class="lead">
         {% blocktrans %}
-        <b>Art-Line</b> est un project pour présenter notre société d'animation.
-	Vous y trouverez des <a href="#">infos sur nos soirées</a>, des renseignements
-	sur nous, etc.
+	  <h4 class="subheader">
+	    <b>Art-Line</b> est un project pour présenter notre société d'animation.
+	    Vous y trouverez des <a href="#">infos sur nos soirées</a>, des renseignements
+	  sur nous, etc.</h4>
         {% endblocktrans %}
-    </p>
-    
-    <h2> World Music Production</h2>
-    <p>
+      </p>
+      
+      <h2> World Music Production</h2>
+      <p class="lead">
         {% blocktrans %}
-        This project lays the foundation for all other Pinax starter projects. It
-        provides the project directory layout and some key infrastructure apps on
-        which the other starter projects are based.
-        {% endblocktrans %}
-    </p>
-    
-    <p><a href="http://pinaxproject.com/" class="btn primary large">{% trans "Learn more &raquo;" %}</a></p>
+          This project lays the foundation for all other Pinax starter projects. It
+	  provides the project directory layout and some key infrastructure apps on
+	  which the other starter projects are based.
+      {% endblocktrans %}
+      </p>
+      
+      <p><a href="http://pinaxproject.com/" class="btn primary large">{% trans "Learn more &raquo;" %}</a></p>
+    </div>
+  </div>
 {% endblock %}
