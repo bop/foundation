@@ -10,7 +10,7 @@ body { background: white; font-family: "Helvetica Neue", "Helvetica", Helvetica,
        background-image:url(/site_media/static/images/djpx2.jpg);
        background-repeat: repeat-y;
        background-attachment:fixed;
-       background-position: 5px -150px;
+       background-position: 5px -45px;
        background-color: silver;
        /* background-size: cover; */
      }
@@ -153,9 +153,9 @@ aside p { font-size: 13px; line-height: 1.35; font-style: italic; }
 h1, h2, h3, h4, h5, h6 { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px; }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; }
 
-h1 { font-size: 44px; }
+h1 { font-size: 96px; color: #98FF98; text-align: center; }
 
-h2 { font-size: 37px; }
+h2 { font-size: 37px; color: #98FF98 ; background-color: #222; text-align: center; }
 
 h3 { font-size: 27px; }
 
@@ -850,10 +850,12 @@ div.alert-box a.close:hover, div.alert-box a.close:focus { opacity: 0.4; }
 .panel { background: #f2f2f2; border: solid 1px #e6e6e6; margin: 0 0 22px 0; padding: 20px; background-color:rgba(176,176,176);}
 .panelGreen { background: #f2f2f2; border: solid 1px #e6e6e6; margin: 0 0 22px 0; padding: 20px; background-color:rgba(120,200,50,0.9);  color: white}
 .panelBlue { background: #f2f2f2; border: solid 1px #e6e6e6; margin: 0 0 22px 0; padding: 20px; background-color:rgba(100,0,250,0.9);  color: white}
-.panelYlw { background: #f2f2f2; border: solid 1px #e6e6e6; margin: 0 0 22px 0; padding: 20px; background-color:rgba(250,0,150,0.9);  color: white}
+.panelYlw { background: #f2f2f2; border: solid 1px #e6e6e6; margin: 0 0 22px 0; padding: 20px; background-color:rgba(255,216,1,0.9);  color: white}
 .panelRed { background: #f2f2f2; border: solid 1px #e6e6e6; margin: 0 0 22px 0; padding: 20px; background-color:rgba(0,120,200,0.9);  color: white}
-.panelRed a{color:white; padding-left:10px}
-.panelBlue a{ color: white; margin-left:10px}
+.panelRed a{color:#CCFFFF; margin-left:10px}
+.panelRed a:hover{color:#00FFFF; padding-left:10px}
+.panelBlue a{ color: #CCFFFF; margin-left:10px}
+.panelBlue a:hover{color:#00FFFF; padding-left:10px}
 .panel > :first-child { margin-top: 0; }
 .panel > :last-child { margin-bottom: 0; }
 .panel.callout { background: #2ba6cb; color: #fff; border-color: #2284a1; -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); }
@@ -976,4 +978,13 @@ fieldset {
 .copyright a {
 
     padding: 1px;
+}
+
+#homepage {
+    margin-bottom: 40px
+}
+
+
+.banner {
+    color: #837E7C; background-color: transparent; text-align: left;
 }
