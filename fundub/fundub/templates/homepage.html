@@ -7,9 +7,23 @@
 {% block body_class %}home{% endblock %}
 
 {% block banner %}
+<header id="homepage" class="homeslide-2">
+
+    <div class="row">
+      <div class="six columns">
+        <a class='sidebar-button show-for-small' id="sidebarButton" href="#sidebar" ><img src="images/offcanvas/menu-wht.png"><h4>Foundation</h4></a>
+        <h1>Art-Line</h1>
+        <h4>The most advanced responsive<br class="hide-for-small"> front-end framework in the world.</h4>
+
+        <a href="download.php" class="large button" id="mainDownload">Download Foundation 4</a>
+        <a href="download.php" class="large button show-for-small" id="deviceDownload">View Download Options</a>
+      </div>
+    </div>
+
+  </header>
+
   <div class="row panel">
     <div class="large-10 pull-2 columns">
-      <h1>Art-Line</h1>
       <p class="lead">
         {% blocktrans %}
 	  <h3 class="subheader">
@@ -29,7 +43,9 @@
       {% endblocktrans %}
       </p>
       
-      <p><a href="http://pinaxproject.com/" class="btn primary large">{% trans "Learn more &raquo;" %}</a></p>
+      <p><a href="/news" class="btn primary large">{% trans "Learn more &raquo;" %}</a></p>
     </div>
   </div>
+
+
 {% endblock %}
