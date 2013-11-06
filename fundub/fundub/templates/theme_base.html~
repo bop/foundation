@@ -80,10 +80,6 @@
 	  <li><a href="/contact">Link 3</a></li>
 	  <li><a href="/">Link 4</a></li>
 	  <p><img src="http://placehold.it/160x120&text=Ad" /></p>
-	  <li><a href="/ref">Link 5</a></li>
-	  <li class="divider"></li>
-	  <li><a href="/contact">Link 6</a></li>
-	  <li><a href="/">Link 7</a></li>
 	</ul>
     </div>
   </div>

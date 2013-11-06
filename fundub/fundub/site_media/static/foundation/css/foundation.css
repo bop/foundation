@@ -155,7 +155,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; col
 
 h1 { font-size: 96px; color: #999; text-align: center; }
 
-h2 { font-size: 37px; color: #777; background-color: #222; text-align: center; }
+h2 { font-size: 37px; color: silver; background-color: #222; text-align: center; }
 h2.red { font-size: 37px; color:rgba(250,0,0,0.6); background-color: #222; text-align: center; }
 h2.yellow { font-size: 37px; color:rgba(255,216,1,0.9); background-color: #222; text-align: center; }
 
