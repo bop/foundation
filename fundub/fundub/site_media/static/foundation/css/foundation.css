@@ -10,7 +10,7 @@ body { background: white; font-family: "Helvetica Neue", "Helvetica", Helvetica,
        background-image:url(/site_media/static/images/djpx2.jpg);
        background-repeat: repeat-y;
        background-attachment:fixed;
-       background-position: 5px -45px;
+       background-position: 5px -35px;
        background-color: silver;
        /* background-size: cover; */
      }
