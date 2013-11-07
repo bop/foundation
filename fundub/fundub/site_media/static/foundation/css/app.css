@@ -71,3 +71,8 @@ input[type="text"], textarea {
     width: 100%;
     max-width: 400px;
 }
+
+
+.side-bar li {
+list-style-image: url(http://img15.hostingpics.net/pics/343185flamme.gif);}
+}
