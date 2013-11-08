@@ -5,13 +5,14 @@
 	z-index: 999;
 	left: 0;
 	right: 0;
-	padding: 5px;
+	padding: 10px;
+	word-spacing: 1.5em
 }
 
 .nav-bar.menu {
 	background: none;
 	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom: -20px;
 	float: right;	
 }
 
@@ -37,9 +38,9 @@ li.name a:hover{
     font-size: 24px;
 }
 
-.attached .mobile-four {
+.attached .mobile-two {
 	padding: 0;
-	word-spacing: 2.5em
+
 }
 
 input[type="password"], textarea {

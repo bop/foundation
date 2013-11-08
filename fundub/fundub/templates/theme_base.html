@@ -48,17 +48,19 @@
 
     {% block topbar_base %}
       <div class="attached">
-	<div class="row"> 	
-	  <li class="name mobile-four">
-	    <a href="/"><span class="show-for-small glyph general"></span>{{SITE_NAME}}</a><a href="#">&nbsp; &nbsp; &nbsp;</a>
-	  </li>
-	  <li class="name mobile-four">
-	    <a href="/ref"><span class="show-for-small glyph general"></span>&nbsp;Références&nbsp; &nbsp; &nbsp;</a>
-	  </li>
+	<div class="row"> 
+	  <ul>
+	    <li class="name mobile-two">
+	      <a href="/"><span class="show-for-small glyph general"></span>{{SITE_NAME}}</a><a href="#">&nbsp; &nbsp; &nbsp;</a>
+	    </li>
+	    <li class="name mobile-two">
+	      <a href="/ref"><span class="show-for-small glyph general"></span>&nbsp;Références&nbsp; &nbsp; &nbsp;</a>
+	    </li>
 
-	  <li class="name mobile-four">
-	    <a href="/contact"><span class="show-for-small glyph general"></span>&nbsp;Contact</a>
-	  </li>
+	    <li class="name mobile-two">
+	      <a href="/contact"><span class="show-for-small glyph general"></span>&nbsp;Contact</a>
+	    </li>
+	  </ul>
 	  <ul class="nav-bar menu mobile-four">
 	    {% block topbar %}
 	      {% block nav %}{% endblock %}
@@ -69,18 +71,20 @@
       </div>
     {% endblock %}
 
-    <div class="large-2 pull-10 columns">
-	<ul class="side-nav" id="flamme">
-	  <img src="http://placehold.it/200x50&text=Logo" />
-	  <li class="active">Link 1</li>
-	  <li><a href="/ref">Link 2</a></li>
-	  <li><a href="/contact">Link 3</a></li>
-	  <li><a href="/">Link 4</a></li>
-	  <p><img src="http://placehold.it/160x120&text=Ad" /></p>
-	  <li><a href="/ref">Link 5</a></li>
-	  <li><a href="/contact">Link 6</a></li>
-	  <li><a href="/">Link 7</a></li>
-	</ul>
+    <div class="large-2 pull-10 columns show-for-large-up ">
+      <ul class="side-nav">
+	<img src="http://placehold.it/200x50&text=Logo" />
+	<li class="active"><a href="#">Accueil</a></li>
+	<li><a href="/musique">Musiques</a></li>
+	<li><a href="/video">Vidéos</a></li>
+	<iframe width="196" height="110" src="http://www.youtube.com/embed/5vmrRieW_Nw?rel=0" frameborder="2" allowfullscreen></iframe>
+	<li><a href="/matos">Location Matériel</a></li>
+	<li><a href="/news">Dj news</a></li>
+	<li><a href="/ref">Animation</a></li>
+	<p><img src="http://placehold.it/160x120&text=Publicité" /></p>
+	<li><a href="/ref">À propos</a></li>
+	<li><a href="/contact">Contactez-nous</a></li>
+      </ul>
     </div>
   </div>
 
