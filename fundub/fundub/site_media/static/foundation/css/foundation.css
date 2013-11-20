@@ -7,12 +7,12 @@ html { font-size: 62.5%;
 }
 
 body { background: white; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1; color: silver; position: relative; -webkit-font-smoothing: antialiased; 
-       background-image:url(/site_media/static/images/djpx2.jpg);
+       background-image:url(/site_media/static/images/djtab.png);
        background-repeat: repeat-y;
        background-attachment:fixed;
-       background-position: 5px -35px;
+       background-position: 0 10px;
        background-color: silver;
-       /* background-size: cover; */
+       background-size: cover; */
      }
 
 /* Links ---------------------- */
@@ -153,7 +153,7 @@ aside p { font-size: 13px; line-height: 1.35; font-style: italic; }
 h1, h2, h3, h4, h5, h6 { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px; }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; }
 
-h1 { font-size: 96px; color: #999; text-align: center; }
+h1 { font-size: 96px; color: #2284a1; text-align: center; }
 
 h2 { font-size: 37px; color:#E5E4E2 ; background-color: #222; text-align: center; }
 h2.red { font-size: 37px; color:rgba(250,0,0,0.6); background-color: #222; text-align: center; }
@@ -528,7 +528,7 @@ div.button-bar ul.button-group { float: left; margin-right: 8px; }
 div.button-bar ul.button-group:last-child { margin-left: 0; }
 
 /* Requires globals.css */
-.nav-bar { height: 40px; background: #4d4d4d; margin-top: 20px; padding: 0; }
+.nav-bar { height: 40px; background: #4d4d4d; margin-top: 20px; padding: 0;}
 .nav-bar > li { float: left; display: block; position: relative; padding: 0; margin: 0; border: 1px solid #333333; border-right: none; line-height: 38px; -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; }
 .nav-bar > li:first-child { -webkit-box-shadow: 0 0 0; -moz-box-shadow: 0 0 0; box-shadow: 0 0 0; }
 .nav-bar > li:last-child { border-right: solid 1px #333333; -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); }
@@ -882,10 +882,12 @@ ul.accordion li.active .title:after { content: ""; display: block; width: 0; hei
 ul.accordion li.active .content { background: white; display: block; border-left: 1px solid #e9e9e9; border-right: 1px solid #e9e9e9; }
 
 /* Side Nav ---------------------- */
-ul.side-nav { display: block; list-style: square url(http://img15.hostingpics.net/pics/343185flamme.gif) outer; margin-left: 220px; padding: 17px 0; }
-ul.side-nav li { display: block; margin: 0 0 7px 0; list-style-image: url(http://img15.hostingpics.net/pics/343185flamme.gif);}
-ul.side-nav li a { display: block;}
-ul.side-nav li.active a { color: #4d4d4d; font-weight: bold; }
+ul.side-nav {list-style: url(http://img15.hostingpics.net/pics/343185flamme.gif); margin-left: 220px;}
+ul.side-nav li {margin: 0 2px 7px 0; list-style-image: url(http://img15.hostingpics.net/pics/343185flamme.gif);}
+ul.side-nav li a { display: block; background-color: #555; text-align: left; font-size: 120%; font-weight: 700; font-family: TimesNR;}
+ul.side-nav li a:hover { display: block; color: cyan; padding-left: 15px; background-color: #444;}
+
+ul.side-nav li.active a { color: cyan; font-weight: bold; text-align: center; background-color: #444;}
 ul.side-nav li.divider { border-top: 1px solid #e6e6e6; height: 0; padding: 0; }
 
 /* Sub Navs http://www.zurb.com/article/292/how-to-create-simple-and-effective-sub-na ---------------------- */
@@ -994,3 +996,4 @@ fieldset {
 .banner {
     color: #837E7C; background-color: transparent; text-align: left;
 }
+
