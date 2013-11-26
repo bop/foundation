@@ -5,6 +5,8 @@ art-line project
 
 by xpertise.ch
 
+baptiste.ossipow at gmail.com
+
 =======================
 foundation-project-zero
 =======================
