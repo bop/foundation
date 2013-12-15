@@ -976,10 +976,19 @@ fieldset {
 	min-height: 150px;
 }
 
-.copyright a[href]:hover {
+.copyright {
     color: #98F5FF;
     background: black;
     padding: 1px;
+
+}
+
+.copyright a {
+    color: #bff;
+}
+
+.copyright a[href]:hover {
+    color: #70DB93;
 
 }
 
@@ -995,5 +1004,11 @@ fieldset {
 
 .banner {
     color: #837E7C; background-color: transparent; text-align: left;
+}
+
+
+.side-nav li{
+	list-style-position: inside;
+	list-style-image: url(http://img15.hostingpics.net/pics/343185flamme.gif);
 }
 
